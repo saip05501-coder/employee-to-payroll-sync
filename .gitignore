@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Database files
+*.db
+payroll.db
+
+# Log files
+*.log
+logs/*.log
+!logs/.gitkeep
+
+# Output generated files (uncomment if you wish to ignore generated output)
+output/error_log.csv
+!output/.gitkeep
+
+# Microsoft Office temporary files
+~$*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
